@@ -10,9 +10,9 @@ body {
 }
 #PFP {
     border-radius: 50%;
-    width: 150px;      /* ajuste o tamanho conforme necessário */
-    height: 160px;     /* ajuste o tamanho conforme necessário */
-    object-fit: cover; /* garante que a imagem fique centralizada e não distorça */
+    width: 150px;      
+    height: 160px;    
+    object-fit: cover;
     border: 5px solid pink;
   }
   h1, h2, h3, h4, p {
