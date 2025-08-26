@@ -1,0 +1,93 @@
+body {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke;
+  background: linear-gradient(lightblue, lightpink);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+#PFP {
+    border-radius: 50%;
+    width: 150px;      /* ajuste o tamanho conforme necessário */
+    height: 160px;     /* ajuste o tamanho conforme necessário */
+    object-fit: cover; /* garante que a imagem fique centralizada e não distorça */
+    border: 5px solid pink;
+  }
+  h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+  }
+
+  #bday-age {
+    background: pink;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #bday-date {
+    background: pink;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-top: 0px;
+    
+  }
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gift-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url(joanna-kosinska-DNjfFnDWBi0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+#GI:hover {
+  background-image: url(https://gifdb.com/images/high/happy-steve-carell-187f3vn0ul880c3q.gif);
+}
+#GI2:hover {
+  background-image: url(https://media.tenor.com/9bFV4ULjAzIAAAAM/hot-day.gif)
+}
+#GI3:hover {
+  background-image: url(https://media.tenor.com/vCMcD1c0RGcAAAAM/albert-einstein-smart.gif);
+}
+#GI4:hover {
+  background-image: url(https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyNjE4OTc4dDJncnN3eHJra2hobXVoa3I1MzQ3Nmpnczg1NnRscXA3diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/oBPOP48aQpIxq/giphy.gif);
+}
+#GI5 {
+  height: 200px;
+}
+
+#GI5:hover {
+  background-image: url(https://media.tenor.com/LCpGmX5A6NIAAAAM/cheers-toast.gif)
+}
+#Gift-text1 {
+  margin-bottom: 0px;
+}
+#Gift-text2 {
+  margin-top: 7px;
+}
+#Gift-text3 {
+  margin-top: 40px;
+}
+#Text {
+  font-style: italic;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 400px;
+}
+a {
+  color:white;
+}
